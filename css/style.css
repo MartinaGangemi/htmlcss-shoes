@@ -13,7 +13,7 @@ main, .menu_button>a{
     --background_2: #008000;
     --background_3: #FFFF00;
     --text-color_1: #FFFF00;
-    -text-color_2: #008000;
+    --text-color_2: #008000;
 }
 
 /*header*/
@@ -46,10 +46,21 @@ nav> ul li{
 
 /*main*/
 
-.red_background{
-    background-color: var(--background_1);  
+.background{
     height: 100vh;
     position: relative; 
+}
+
+#red_background{
+    background-color: var(--background_1);  
+}
+
+#green_background{
+    background-color: var(--background_2);
+}
+
+#yellow_background{
+    background-color: var(--background_3);
 }
 
 .product_container{
@@ -63,4 +74,8 @@ nav> ul li{
     text-align: center;
     font-size: 3rem;
     color: var(--text-color_1);
+}
+
+.text_green{
+    color: var(--text-color_2);
 }
