@@ -3,3 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #FF0000;
+}
+:root{
+    --background_button: white;
+    --background_1:#FF0000;
+    --background_2: #008000;
+    --background_3: #FFFF00;
+    --text-color_1: #FFFF00;
+    -text-color_2: #008000;
+}
+
+.menu_header{
+    position: fixed;
+    right: 0;
+}
+
+nav> ul li{
+    display: inline-block;
+    margin: 2rem; 
+}
+
+.menu_button>a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu_button{
+    text-decoration: none;
+    background-color: var(--background_button) ;
+    border: none;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.349);
+}
+
+.prova{
+    background-color: #008000;
+    height: 1400px;
+    width: 200px;
+}
