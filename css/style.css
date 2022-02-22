@@ -14,7 +14,7 @@ main, .menu_button{
     --background_3: #FFFF00;
     --text-color_1: #FFFF00;
     --text-color_2: #008000;
-    --button-hover: rgb(255, 255, 209);
+    --button-hover: rgb(107, 130, 235);
 }
 
 /*header*/
@@ -47,7 +47,7 @@ nav> ul li{
 
 .menu_button:hover {
     background-color: var(--button-hover) ;
-    color: var(--text-color_2);
+    color: var(--background_button);
 }
 
 /*main*/
