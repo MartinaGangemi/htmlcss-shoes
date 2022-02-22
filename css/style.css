@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: #FF0000;
+main, .menu_button>a{
+    font-family: 'Dela Gothic One', cursive;
 }
 :root{
     --background_button: white;
@@ -16,8 +16,11 @@ body{
     -text-color_2: #008000;
 }
 
+/*header*/
+
 .menu_header{
     position: fixed;
+    z-index: 5;
     right: 0;
 }
 
@@ -41,8 +44,23 @@ nav> ul li{
     box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.349);
 }
 
-.prova{
-    background-color: #008000;
-    height: 1400px;
-    width: 200px;
+/*main*/
+
+.red_background{
+    background-color: var(--background_1);  
+    height: 100vh;
+    position: relative; 
+}
+
+.product_container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+}
+
+.text_shoes{
+    text-align: center;
+    font-size: 3rem;
+    color: var(--text-color_1);
 }
