@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-main, .menu_button>a{
+main, .menu_button{
     font-family: 'Dela Gothic One', cursive;
 }
 :root{
@@ -14,6 +14,7 @@ main, .menu_button>a{
     --background_3: #FFFF00;
     --text-color_1: #FFFF00;
     --text-color_2: #008000;
+    --button-hover: rgb(255, 255, 209);
 }
 
 /*header*/
@@ -42,6 +43,11 @@ nav> ul li{
     height: 3rem;
     border-radius: 50%;
     box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.349);
+}
+
+.menu_button:hover {
+    background-color: var(--button-hover) ;
+    color: var(--text-color_2);
 }
 
 /*main*/
